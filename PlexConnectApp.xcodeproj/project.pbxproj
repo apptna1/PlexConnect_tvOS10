@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016474A31BE7EB320075EBC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016474A21BE7EB320075EBC6 /* Assets.xcassets */; };
+		016474A61BE7EBD70075EBC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016474A41BE7EBD70075EBC6 /* Main.storyboard */; };
+		016474C31BE7EFEC0075EBC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016474C21BE7EFEC0075EBC6 /* ViewController.swift */; };
+		016BE1651BF51E5200EA6126 /* JsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE1641BF51E5200EA6126 /* JsInterface.swift */; };
+		016BE16A1BF525BB00EA6126 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 016BE1691BF525BB00EA6126 /* js */; };
+		0188E7221C0A0D3300E8140A /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 0188E7211C0A0D3300E8140A /* Images */; };
+		01CE20951BE6AF9200A2F10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE208F1BE6AF9200A2F10A /* AppDelegate.swift */; };
+		01CE20961BE6AF9200A2F10A /* PlexAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE20901BE6AF9200A2F10A /* PlexAPI.swift */; };
+		01CE20981BE6AF9200A2F10A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE20921BE6AF9200A2F10A /* Settings.swift */; };
+		01CE20991BE6AF9200A2F10A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE20931BE6AF9200A2F10A /* Utilities.swift */; };
+		01CE209A1BE6AF9200A2F10A /* XMLConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE20941BE6AF9200A2F10A /* XMLConverter.swift */; };
+		01CE20A21BE6AFE700A2F10A /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE20A11BE6AFE700A2F10A /* SWXMLHash.swift */; };
+		01F0E79E1C133B0F00AE6D42 /* TVMLTemplates in Resources */ = {isa = PBXBuildFile; fileRef = 01F0E79D1C133B0F00AE6D42 /* TVMLTemplates */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016474A21BE7EB320075EBC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016474A51BE7EBD70075EBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016474C21BE7EFEC0075EBC6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		016BE1641BF51E5200EA6126 /* JsInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = JsInterface.swift; sourceTree = "<group>"; };
+		016BE1691BF525BB00EA6126 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = PlexConnectApp/js; sourceTree = "<group>"; };
+		0188E7211C0A0D3300E8140A /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = PlexConnectApp/Images; sourceTree = "<group>"; };
+		01CE20661BE6ADD500A2F10A /* PlexConnectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlexConnectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CE20741BE6ADD500A2F10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CE208F1BE6AF9200A2F10A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01CE20901BE6AF9200A2F10A /* PlexAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PlexAPI.swift; sourceTree = "<group>"; };
+		01CE20921BE6AF9200A2F10A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		01CE20931BE6AF9200A2F10A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		01CE20941BE6AF9200A2F10A /* XMLConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = XMLConverter.swift; sourceTree = "<group>"; };
+		01CE20A01BE6AFE700A2F10A /* SWXMLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWXMLHash.h; path = PlexConnectApp/lib_SWXMLHash/SWXMLHash.h; sourceTree = "<group>"; };
+		01CE20A11BE6AFE700A2F10A /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = PlexConnectApp/lib_SWXMLHash/SWXMLHash.swift; sourceTree = "<group>"; };
+		01F0E79D1C133B0F00AE6D42 /* TVMLTemplates */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TVMLTemplates; path = PlexConnectApp/TVMLTemplates; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CE20631BE6ADD500A2F10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CE205D1BE6ADD500A2F10A = {
+			isa = PBXGroup;
+			children = (
+				01CE20681BE6ADD500A2F10A /* PlexConnectApp */,
+				01CE20671BE6ADD500A2F10A /* Products */,
+				0188E7211C0A0D3300E8140A /* Images */,
+				01CE20A31BE6AFEC00A2F10A /* lib_SWXMLHash */,
+				016BE1691BF525BB00EA6126 /* js */,
+				01F0E79D1C133B0F00AE6D42 /* TVMLTemplates */,
+			);
+			sourceTree = "<group>";
+		};
+		01CE20671BE6ADD500A2F10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CE20661BE6ADD500A2F10A /* PlexConnectApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01CE20681BE6ADD500A2F10A /* PlexConnectApp */ = {
+			isa = PBXGroup;
+			children = (
+				01CE208F1BE6AF9200A2F10A /* AppDelegate.swift */,
+				01CE20901BE6AF9200A2F10A /* PlexAPI.swift */,
+				016BE1641BF51E5200EA6126 /* JsInterface.swift */,
+				01CE20921BE6AF9200A2F10A /* Settings.swift */,
+				01CE20931BE6AF9200A2F10A /* Utilities.swift */,
+				01CE20941BE6AF9200A2F10A /* XMLConverter.swift */,
+				016474C21BE7EFEC0075EBC6 /* ViewController.swift */,
+				016474A21BE7EB320075EBC6 /* Assets.xcassets */,
+				016474A41BE7EBD70075EBC6 /* Main.storyboard */,
+				01CE20741BE6ADD500A2F10A /* Info.plist */,
+			);
+			path = PlexConnectApp;
+			sourceTree = "<group>";
+		};
+		01CE20A31BE6AFEC00A2F10A /* lib_SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				01CE20A01BE6AFE700A2F10A /* SWXMLHash.h */,
+				01CE20A11BE6AFE700A2F10A /* SWXMLHash.swift */,
+			);
+			name = lib_SWXMLHash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CE20651BE6ADD500A2F10A /* PlexConnectApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CE20771BE6ADD500A2F10A /* Build configuration list for PBXNativeTarget "PlexConnectApp" */;
+			buildPhases = (
+				01CE20621BE6ADD500A2F10A /* Sources */,
+				01CE20631BE6ADD500A2F10A /* Frameworks */,
+				01CE20641BE6ADD500A2F10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlexConnectApp;
+			productName = PlexConnectApp;
+			productReference = 01CE20661BE6ADD500A2F10A /* PlexConnectApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CE205E1BE6ADD500A2F10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Baa;
+				TargetAttributes = {
+					01CE20651BE6ADD500A2F10A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = TAQDRE37FL;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 01CE20611BE6ADD500A2F10A /* Build configuration list for PBXProject "PlexConnectApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CE205D1BE6ADD500A2F10A;
+			productRefGroup = 01CE20671BE6ADD500A2F10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CE20651BE6ADD500A2F10A /* PlexConnectApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CE20641BE6ADD500A2F10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0188E7221C0A0D3300E8140A /* Images in Resources */,
+				016474A61BE7EBD70075EBC6 /* Main.storyboard in Resources */,
+				016474A31BE7EB320075EBC6 /* Assets.xcassets in Resources */,
+				016BE16A1BF525BB00EA6126 /* js in Resources */,
+				01F0E79E1C133B0F00AE6D42 /* TVMLTemplates in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CE20621BE6ADD500A2F10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CE20951BE6AF9200A2F10A /* AppDelegate.swift in Sources */,
+				01CE209A1BE6AF9200A2F10A /* XMLConverter.swift in Sources */,
+				016474C31BE7EFEC0075EBC6 /* ViewController.swift in Sources */,
+				01CE20981BE6AF9200A2F10A /* Settings.swift in Sources */,
+				01CE20991BE6AF9200A2F10A /* Utilities.swift in Sources */,
+				01CE20961BE6AF9200A2F10A /* PlexAPI.swift in Sources */,
+				016BE1651BF51E5200EA6126 /* JsInterface.swift in Sources */,
+				01CE20A21BE6AFE700A2F10A /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		016474A41BE7EBD70075EBC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016474A51BE7EBD70075EBC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01CE20751BE6ADD500A2F10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		01CE20761BE6ADD500A2F10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01CE20781BE6ADD500A2F10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PlexConnectApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlexRevenant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		01CE20791BE6ADD500A2F10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PlexConnectApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlexRevenant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CE20611BE6ADD500A2F10A /* Build configuration list for PBXProject "PlexConnectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CE20751BE6ADD500A2F10A /* Debug */,
+				01CE20761BE6ADD500A2F10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CE20771BE6ADD500A2F10A /* Build configuration list for PBXNativeTarget "PlexConnectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CE20781BE6ADD500A2F10A /* Debug */,
+				01CE20791BE6ADD500A2F10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CE205E1BE6ADD500A2F10A /* Project object */;
+}
